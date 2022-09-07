@@ -6,11 +6,9 @@ export default function Video({ video }) {
     id,
     author,
     title,
-    description,
     date,
     duration,
     views,
-    link,
     thumbnail,
   } = video || {};
   return (
